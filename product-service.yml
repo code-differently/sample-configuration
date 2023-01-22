@@ -7,3 +7,6 @@ spring:
 eureka:
   instance:
     instance-id: ${spring.application.name}:${random.uuid}
+
+test:
+  name: test
